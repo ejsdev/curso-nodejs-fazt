@@ -1,0 +1,11 @@
+{
+  "name": "curso-nodejs-fazt",
+  "version": "1.0.0",
+  "description": "Curso NodeJS de Fazt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ejsdev",
+  "license": "ISC"
+}
