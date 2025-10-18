@@ -1,45 +1,57 @@
-## 
+
+## Descripción
+
+Curso NodeJS de Fazt más despliegue en Render.
 
 
-### Instalación
+## Instalación
 
-#### 1 Clonar repositorio
-
-```sh
-git clone https://github.com/FaztWeb/first-node-express-app
-```
-
-#### 2 Moverse al directorio de la app.
+### 1. Clonar repositorio
 
 ```sh
-cd first-node-express-app
+git clone https://github.com/ejsdev/curso-nodejs-fazt
 ```
 
-#### 3 Instalación de dependencias:
+### 2. Moverse al directorio de la app.
+
+```sh
+cd curso-nodejs-fazt
+```
+
+### 3. Instalación de dependencias:
 
 ```sh
 npm install
 ```
 
-# Ejecutar proyecto
+## Ejecutar proyecto
 
 ```sh
 npm run dev
 ```
 
-
-
-## Deployment
+## Deployment 
 
 Proyecto desplegado en Render. 
-
+### Configuración del package.json
 Añadir la siguiente linea de código al package.json:
 ```
 "start": "node src/index.js"
 ```
+### Configuración en render
+
+**Build command:**
+```
+$ npm install
+```
+**Start Command:**
+```
+$ npm run start
+```
+
 # Estructura del proyecto
 ```
-.
+root
 ├── src
 │   ├── public
 │   │   ├── css
@@ -61,8 +73,11 @@ Añadir la siguiente linea de código al package.json:
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
-├── project-map.md
 └── README.md
 ```
 
 
+# Links
+
+*  [Video tutorial.](https://www.youtube.com/watch?v=OVESuyVoPkI)	
+*  [Repositorio original del proyecto.](https://github.com/FaztWeb/first-node-express-app)	
