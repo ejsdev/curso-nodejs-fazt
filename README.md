@@ -38,6 +38,7 @@ Añadir la siguiente linea de código al package.json:
 "start": "node src/index.js"
 ```
 # Estructura del proyecto
+```
 .
 ├── src
 │   ├── public
@@ -62,6 +63,6 @@ Añadir la siguiente linea de código al package.json:
 ├── package.json
 ├── project-map.md
 └── README.md
-
+```
 
 
