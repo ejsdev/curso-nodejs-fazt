@@ -37,8 +37,31 @@ Añadir la siguiente linea de código al package.json:
 ```
 "start": "node src/index.js"
 ```
-
-
+# Estructura del proyecto
+.
+├── src
+│   ├── public
+│   │   ├── css
+│   │   │   └── main.css
+│   │   └── img
+│   │       ├── ejsdev.png
+│   │       └── logo_v1.gif
+│   ├── routes
+│   │   └── index.js
+│   ├── views
+│   │   ├── partials
+│   │   │   ├── footer.ejs
+│   │   │   ├── head.ejs
+│   │   │   └── navigation.ejs
+│   │   ├── about.ejs
+│   │   ├── contact.ejs
+│   │   └── index.ejs
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── project-map.md
+└── README.md
 
 
 
