@@ -1,32 +1,7 @@
- 
-# Modulos
-npm i ejs express morgan 
-npm i nodemon -D
-
-# Ejecucion
-
-npm run dev 
+## 
 
 
-# JavaScript
-JavaScript Básico
-
-
-s
-## Run
-
-
-
-...
-### Run
-```
-$ npm run dev 
-```
- 
-
-### Installation
-
-### Installation
+### Instalación
 
 #### 1 Clonar repositorio
 
@@ -56,24 +31,14 @@ npm run dev
 
 ## Deployment
 
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
+Proyecto desplegado en Render. 
 
-### Server
+Añadir la siguiente linea de código al package.json:
+```
+"start": "node src/index.js"
+```
 
-* Live:
-* Release:
-* Development:
 
-### Branches
 
-* Master:
-* Feature:
-* Bugfix:
-* etc...
 
-## Additional Documentation and Acknowledgments
 
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
