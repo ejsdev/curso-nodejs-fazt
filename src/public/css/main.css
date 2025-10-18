@@ -1,0 +1,18 @@
+body {
+  background: #202020;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Share Tech", sans-serif, normal;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-family: "Share Tech", sans-serif, normal;
+}
+
+header img {
+  width: 60%;
+}
